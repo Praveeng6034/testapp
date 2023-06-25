@@ -1,4 +1,4 @@
- task: Maven@4
+  task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
@@ -9,7 +9,7 @@
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
 
-steps:
+ steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '10.x'
